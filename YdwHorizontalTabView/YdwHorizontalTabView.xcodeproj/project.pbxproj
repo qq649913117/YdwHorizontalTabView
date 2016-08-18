@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2071386E1D6587B20098C5D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2071386D1D6587B20098C5D6 /* main.m */; };
+		207138711D6587B20098C5D6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 207138701D6587B20098C5D6 /* AppDelegate.m */; };
+		207138741D6587B20098C5D6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 207138731D6587B20098C5D6 /* ViewController.m */; };
+		207138771D6587B20098C5D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 207138751D6587B20098C5D6 /* Main.storyboard */; };
+		207138791D6587B20098C5D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 207138781D6587B20098C5D6 /* Assets.xcassets */; };
+		2071387C1D6587B20098C5D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2071387A1D6587B20098C5D6 /* LaunchScreen.storyboard */; };
+		207138871D6587B20098C5D6 /* YdwHorizontalTabViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 207138861D6587B20098C5D6 /* YdwHorizontalTabViewTests.m */; };
+		207138921D6587B20098C5D6 /* YdwHorizontalTabViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 207138911D6587B20098C5D6 /* YdwHorizontalTabViewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		207138831D6587B20098C5D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 207138611D6587B20098C5D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 207138681D6587B20098C5D6;
+			remoteInfo = YdwHorizontalTabView;
+		};
+		2071388E1D6587B20098C5D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 207138611D6587B20098C5D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 207138681D6587B20098C5D6;
+			remoteInfo = YdwHorizontalTabView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		207138691D6587B20098C5D6 /* YdwHorizontalTabView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YdwHorizontalTabView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2071386D1D6587B20098C5D6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2071386F1D6587B20098C5D6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		207138701D6587B20098C5D6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		207138721D6587B20098C5D6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		207138731D6587B20098C5D6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		207138761D6587B20098C5D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		207138781D6587B20098C5D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2071387B1D6587B20098C5D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2071387D1D6587B20098C5D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		207138821D6587B20098C5D6 /* YdwHorizontalTabViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YdwHorizontalTabViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		207138861D6587B20098C5D6 /* YdwHorizontalTabViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YdwHorizontalTabViewTests.m; sourceTree = "<group>"; };
+		207138881D6587B20098C5D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2071388D1D6587B20098C5D6 /* YdwHorizontalTabViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YdwHorizontalTabViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		207138911D6587B20098C5D6 /* YdwHorizontalTabViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YdwHorizontalTabViewUITests.m; sourceTree = "<group>"; };
+		207138931D6587B20098C5D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		207138661D6587B20098C5D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2071387F1D6587B20098C5D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2071388A1D6587B20098C5D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		207138601D6587B20098C5D6 = {
+			isa = PBXGroup;
+			children = (
+				2071386B1D6587B20098C5D6 /* YdwHorizontalTabView */,
+				207138851D6587B20098C5D6 /* YdwHorizontalTabViewTests */,
+				207138901D6587B20098C5D6 /* YdwHorizontalTabViewUITests */,
+				2071386A1D6587B20098C5D6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2071386A1D6587B20098C5D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				207138691D6587B20098C5D6 /* YdwHorizontalTabView.app */,
+				207138821D6587B20098C5D6 /* YdwHorizontalTabViewTests.xctest */,
+				2071388D1D6587B20098C5D6 /* YdwHorizontalTabViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2071386B1D6587B20098C5D6 /* YdwHorizontalTabView */ = {
+			isa = PBXGroup;
+			children = (
+				2071386F1D6587B20098C5D6 /* AppDelegate.h */,
+				207138701D6587B20098C5D6 /* AppDelegate.m */,
+				207138721D6587B20098C5D6 /* ViewController.h */,
+				207138731D6587B20098C5D6 /* ViewController.m */,
+				207138751D6587B20098C5D6 /* Main.storyboard */,
+				207138781D6587B20098C5D6 /* Assets.xcassets */,
+				2071387A1D6587B20098C5D6 /* LaunchScreen.storyboard */,
+				2071387D1D6587B20098C5D6 /* Info.plist */,
+				2071386C1D6587B20098C5D6 /* Supporting Files */,
+			);
+			path = YdwHorizontalTabView;
+			sourceTree = "<group>";
+		};
+		2071386C1D6587B20098C5D6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2071386D1D6587B20098C5D6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		207138851D6587B20098C5D6 /* YdwHorizontalTabViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				207138861D6587B20098C5D6 /* YdwHorizontalTabViewTests.m */,
+				207138881D6587B20098C5D6 /* Info.plist */,
+			);
+			path = YdwHorizontalTabViewTests;
+			sourceTree = "<group>";
+		};
+		207138901D6587B20098C5D6 /* YdwHorizontalTabViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				207138911D6587B20098C5D6 /* YdwHorizontalTabViewUITests.m */,
+				207138931D6587B20098C5D6 /* Info.plist */,
+			);
+			path = YdwHorizontalTabViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		207138681D6587B20098C5D6 /* YdwHorizontalTabView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 207138961D6587B20098C5D6 /* Build configuration list for PBXNativeTarget "YdwHorizontalTabView" */;
+			buildPhases = (
+				207138651D6587B20098C5D6 /* Sources */,
+				207138661D6587B20098C5D6 /* Frameworks */,
+				207138671D6587B20098C5D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YdwHorizontalTabView;
+			productName = YdwHorizontalTabView;
+			productReference = 207138691D6587B20098C5D6 /* YdwHorizontalTabView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		207138811D6587B20098C5D6 /* YdwHorizontalTabViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 207138991D6587B20098C5D6 /* Build configuration list for PBXNativeTarget "YdwHorizontalTabViewTests" */;
+			buildPhases = (
+				2071387E1D6587B20098C5D6 /* Sources */,
+				2071387F1D6587B20098C5D6 /* Frameworks */,
+				207138801D6587B20098C5D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				207138841D6587B20098C5D6 /* PBXTargetDependency */,
+			);
+			name = YdwHorizontalTabViewTests;
+			productName = YdwHorizontalTabViewTests;
+			productReference = 207138821D6587B20098C5D6 /* YdwHorizontalTabViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2071388C1D6587B20098C5D6 /* YdwHorizontalTabViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2071389C1D6587B20098C5D6 /* Build configuration list for PBXNativeTarget "YdwHorizontalTabViewUITests" */;
+			buildPhases = (
+				207138891D6587B20098C5D6 /* Sources */,
+				2071388A1D6587B20098C5D6 /* Frameworks */,
+				2071388B1D6587B20098C5D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2071388F1D6587B20098C5D6 /* PBXTargetDependency */,
+			);
+			name = YdwHorizontalTabViewUITests;
+			productName = YdwHorizontalTabViewUITests;
+			productReference = 2071388D1D6587B20098C5D6 /* YdwHorizontalTabViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		207138611D6587B20098C5D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = ydw;
+				TargetAttributes = {
+					207138681D6587B20098C5D6 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = GT2LWSG3LV;
+					};
+					207138811D6587B20098C5D6 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = GT2LWSG3LV;
+						TestTargetID = 207138681D6587B20098C5D6;
+					};
+					2071388C1D6587B20098C5D6 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = GT2LWSG3LV;
+						TestTargetID = 207138681D6587B20098C5D6;
+					};
+				};
+			};
+			buildConfigurationList = 207138641D6587B20098C5D6 /* Build configuration list for PBXProject "YdwHorizontalTabView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 207138601D6587B20098C5D6;
+			productRefGroup = 2071386A1D6587B20098C5D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				207138681D6587B20098C5D6 /* YdwHorizontalTabView */,
+				207138811D6587B20098C5D6 /* YdwHorizontalTabViewTests */,
+				2071388C1D6587B20098C5D6 /* YdwHorizontalTabViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		207138671D6587B20098C5D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2071387C1D6587B20098C5D6 /* LaunchScreen.storyboard in Resources */,
+				207138791D6587B20098C5D6 /* Assets.xcassets in Resources */,
+				207138771D6587B20098C5D6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		207138801D6587B20098C5D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2071388B1D6587B20098C5D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		207138651D6587B20098C5D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				207138741D6587B20098C5D6 /* ViewController.m in Sources */,
+				207138711D6587B20098C5D6 /* AppDelegate.m in Sources */,
+				2071386E1D6587B20098C5D6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2071387E1D6587B20098C5D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				207138871D6587B20098C5D6 /* YdwHorizontalTabViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		207138891D6587B20098C5D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				207138921D6587B20098C5D6 /* YdwHorizontalTabViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		207138841D6587B20098C5D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 207138681D6587B20098C5D6 /* YdwHorizontalTabView */;
+			targetProxy = 207138831D6587B20098C5D6 /* PBXContainerItemProxy */;
+		};
+		2071388F1D6587B20098C5D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 207138681D6587B20098C5D6 /* YdwHorizontalTabView */;
+			targetProxy = 2071388E1D6587B20098C5D6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		207138751D6587B20098C5D6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				207138761D6587B20098C5D6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2071387A1D6587B20098C5D6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2071387B1D6587B20098C5D6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		207138941D6587B20098C5D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		207138951D6587B20098C5D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		207138971D6587B20098C5D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YdwHorizontalTabView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yang.YdwHorizontalTabView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		207138981D6587B20098C5D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YdwHorizontalTabView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yang.YdwHorizontalTabView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2071389A1D6587B20098C5D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YdwHorizontalTabViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yang.YdwHorizontalTabViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YdwHorizontalTabView.app/YdwHorizontalTabView";
+			};
+			name = Debug;
+		};
+		2071389B1D6587B20098C5D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YdwHorizontalTabViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yang.YdwHorizontalTabViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YdwHorizontalTabView.app/YdwHorizontalTabView";
+			};
+			name = Release;
+		};
+		2071389D1D6587B20098C5D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YdwHorizontalTabViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yang.YdwHorizontalTabViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YdwHorizontalTabView;
+			};
+			name = Debug;
+		};
+		2071389E1D6587B20098C5D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YdwHorizontalTabViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yang.YdwHorizontalTabViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YdwHorizontalTabView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		207138641D6587B20098C5D6 /* Build configuration list for PBXProject "YdwHorizontalTabView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				207138941D6587B20098C5D6 /* Debug */,
+				207138951D6587B20098C5D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		207138961D6587B20098C5D6 /* Build configuration list for PBXNativeTarget "YdwHorizontalTabView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				207138971D6587B20098C5D6 /* Debug */,
+				207138981D6587B20098C5D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		207138991D6587B20098C5D6 /* Build configuration list for PBXNativeTarget "YdwHorizontalTabViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2071389A1D6587B20098C5D6 /* Debug */,
+				2071389B1D6587B20098C5D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2071389C1D6587B20098C5D6 /* Build configuration list for PBXNativeTarget "YdwHorizontalTabViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2071389D1D6587B20098C5D6 /* Debug */,
+				2071389E1D6587B20098C5D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 207138611D6587B20098C5D6 /* Project object */;
+}

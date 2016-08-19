@@ -15,6 +15,19 @@
 		2071387C1D6587B20098C5D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2071387A1D6587B20098C5D6 /* LaunchScreen.storyboard */; };
 		207138871D6587B20098C5D6 /* YdwHorizontalTabViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 207138861D6587B20098C5D6 /* YdwHorizontalTabViewTests.m */; };
 		207138921D6587B20098C5D6 /* YdwHorizontalTabViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 207138911D6587B20098C5D6 /* YdwHorizontalTabViewUITests.m */; };
+		207138A21D6589F90098C5D6 /* YDWSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 207138A11D6589F90098C5D6 /* YDWSelectView.m */; };
+		207138A71D65BC0E0098C5D6 /* firstVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 207138A51D65BC0E0098C5D6 /* firstVC.m */; };
+		207138A81D65BC0E0098C5D6 /* firstVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 207138A61D65BC0E0098C5D6 /* firstVC.xib */; };
+		207138AC1D65BC270098C5D6 /* secondVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 207138AA1D65BC270098C5D6 /* secondVC.m */; };
+		207138AD1D65BC270098C5D6 /* secondVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 207138AB1D65BC270098C5D6 /* secondVC.xib */; };
+		207138B11D65BC390098C5D6 /* thirdVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 207138AF1D65BC390098C5D6 /* thirdVC.m */; };
+		207138B21D65BC390098C5D6 /* thirdVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 207138B01D65BC390098C5D6 /* thirdVC.xib */; };
+		207138B61D65BC4A0098C5D6 /* fourthVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 207138B41D65BC4A0098C5D6 /* fourthVC.m */; };
+		207138B71D65BC4A0098C5D6 /* fourthVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 207138B51D65BC4A0098C5D6 /* fourthVC.xib */; };
+		207138BB1D65BC610098C5D6 /* fifthVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 207138B91D65BC610098C5D6 /* fifthVC.m */; };
+		207138BC1D65BC610098C5D6 /* fifthVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 207138BA1D65BC610098C5D6 /* fifthVC.xib */; };
+		207138C01D65BC830098C5D6 /* SixthVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 207138BE1D65BC830098C5D6 /* SixthVC.m */; };
+		207138C11D65BC830098C5D6 /* SixthVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 207138BF1D65BC830098C5D6 /* SixthVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +64,26 @@
 		2071388D1D6587B20098C5D6 /* YdwHorizontalTabViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YdwHorizontalTabViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		207138911D6587B20098C5D6 /* YdwHorizontalTabViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YdwHorizontalTabViewUITests.m; sourceTree = "<group>"; };
 		207138931D6587B20098C5D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		207138A01D6589F90098C5D6 /* YDWSelectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDWSelectView.h; sourceTree = "<group>"; };
+		207138A11D6589F90098C5D6 /* YDWSelectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDWSelectView.m; sourceTree = "<group>"; };
+		207138A41D65BC0E0098C5D6 /* firstVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = firstVC.h; sourceTree = "<group>"; };
+		207138A51D65BC0E0098C5D6 /* firstVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = firstVC.m; sourceTree = "<group>"; };
+		207138A61D65BC0E0098C5D6 /* firstVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = firstVC.xib; sourceTree = "<group>"; };
+		207138A91D65BC270098C5D6 /* secondVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = secondVC.h; sourceTree = "<group>"; };
+		207138AA1D65BC270098C5D6 /* secondVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = secondVC.m; sourceTree = "<group>"; };
+		207138AB1D65BC270098C5D6 /* secondVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = secondVC.xib; sourceTree = "<group>"; };
+		207138AE1D65BC390098C5D6 /* thirdVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = thirdVC.h; sourceTree = "<group>"; };
+		207138AF1D65BC390098C5D6 /* thirdVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = thirdVC.m; sourceTree = "<group>"; };
+		207138B01D65BC390098C5D6 /* thirdVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = thirdVC.xib; sourceTree = "<group>"; };
+		207138B31D65BC4A0098C5D6 /* fourthVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fourthVC.h; sourceTree = "<group>"; };
+		207138B41D65BC4A0098C5D6 /* fourthVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fourthVC.m; sourceTree = "<group>"; };
+		207138B51D65BC4A0098C5D6 /* fourthVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = fourthVC.xib; sourceTree = "<group>"; };
+		207138B81D65BC610098C5D6 /* fifthVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fifthVC.h; sourceTree = "<group>"; };
+		207138B91D65BC610098C5D6 /* fifthVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fifthVC.m; sourceTree = "<group>"; };
+		207138BA1D65BC610098C5D6 /* fifthVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = fifthVC.xib; sourceTree = "<group>"; };
+		207138BD1D65BC820098C5D6 /* SixthVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SixthVC.h; sourceTree = "<group>"; };
+		207138BE1D65BC830098C5D6 /* SixthVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SixthVC.m; sourceTree = "<group>"; };
+		207138BF1D65BC830098C5D6 /* SixthVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SixthVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +134,8 @@
 		2071386B1D6587B20098C5D6 /* YdwHorizontalTabView */ = {
 			isa = PBXGroup;
 			children = (
+				2071389F1D6589F90098C5D6 /* YdwTabView */,
+				207138A31D65BBDC0098C5D6 /* SubViewControllers */,
 				2071386F1D6587B20098C5D6 /* AppDelegate.h */,
 				207138701D6587B20098C5D6 /* AppDelegate.m */,
 				207138721D6587B20098C5D6 /* ViewController.h */,
@@ -138,6 +173,40 @@
 				207138931D6587B20098C5D6 /* Info.plist */,
 			);
 			path = YdwHorizontalTabViewUITests;
+			sourceTree = "<group>";
+		};
+		2071389F1D6589F90098C5D6 /* YdwTabView */ = {
+			isa = PBXGroup;
+			children = (
+				207138A01D6589F90098C5D6 /* YDWSelectView.h */,
+				207138A11D6589F90098C5D6 /* YDWSelectView.m */,
+			);
+			path = YdwTabView;
+			sourceTree = "<group>";
+		};
+		207138A31D65BBDC0098C5D6 /* SubViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				207138A41D65BC0E0098C5D6 /* firstVC.h */,
+				207138A51D65BC0E0098C5D6 /* firstVC.m */,
+				207138A61D65BC0E0098C5D6 /* firstVC.xib */,
+				207138A91D65BC270098C5D6 /* secondVC.h */,
+				207138AA1D65BC270098C5D6 /* secondVC.m */,
+				207138AB1D65BC270098C5D6 /* secondVC.xib */,
+				207138AE1D65BC390098C5D6 /* thirdVC.h */,
+				207138AF1D65BC390098C5D6 /* thirdVC.m */,
+				207138B01D65BC390098C5D6 /* thirdVC.xib */,
+				207138B31D65BC4A0098C5D6 /* fourthVC.h */,
+				207138B41D65BC4A0098C5D6 /* fourthVC.m */,
+				207138B51D65BC4A0098C5D6 /* fourthVC.xib */,
+				207138B81D65BC610098C5D6 /* fifthVC.h */,
+				207138B91D65BC610098C5D6 /* fifthVC.m */,
+				207138BA1D65BC610098C5D6 /* fifthVC.xib */,
+				207138BD1D65BC820098C5D6 /* SixthVC.h */,
+				207138BE1D65BC830098C5D6 /* SixthVC.m */,
+				207138BF1D65BC830098C5D6 /* SixthVC.xib */,
+			);
+			path = SubViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,8 +315,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				207138AD1D65BC270098C5D6 /* secondVC.xib in Resources */,
+				207138B71D65BC4A0098C5D6 /* fourthVC.xib in Resources */,
 				2071387C1D6587B20098C5D6 /* LaunchScreen.storyboard in Resources */,
+				207138A81D65BC0E0098C5D6 /* firstVC.xib in Resources */,
 				207138791D6587B20098C5D6 /* Assets.xcassets in Resources */,
+				207138B21D65BC390098C5D6 /* thirdVC.xib in Resources */,
+				207138BC1D65BC610098C5D6 /* fifthVC.xib in Resources */,
+				207138C11D65BC830098C5D6 /* SixthVC.xib in Resources */,
 				207138771D6587B20098C5D6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,8 +348,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				207138AC1D65BC270098C5D6 /* secondVC.m in Sources */,
 				207138741D6587B20098C5D6 /* ViewController.m in Sources */,
+				207138A21D6589F90098C5D6 /* YDWSelectView.m in Sources */,
+				207138BB1D65BC610098C5D6 /* fifthVC.m in Sources */,
 				207138711D6587B20098C5D6 /* AppDelegate.m in Sources */,
+				207138B11D65BC390098C5D6 /* thirdVC.m in Sources */,
+				207138A71D65BC0E0098C5D6 /* firstVC.m in Sources */,
+				207138C01D65BC830098C5D6 /* SixthVC.m in Sources */,
+				207138B61D65BC4A0098C5D6 /* fourthVC.m in Sources */,
 				2071386E1D6587B20098C5D6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -499,6 +581,7 @@
 				207138981D6587B20098C5D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		207138991D6587B20098C5D6 /* Build configuration list for PBXNativeTarget "YdwHorizontalTabViewTests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +590,7 @@
 				2071389B1D6587B20098C5D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2071389C1D6587B20098C5D6 /* Build configuration list for PBXNativeTarget "YdwHorizontalTabViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +599,7 @@
 				2071389E1D6587B20098C5D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
